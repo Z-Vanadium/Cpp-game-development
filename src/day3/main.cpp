@@ -138,6 +138,7 @@ int main() {
 		}
 		else if (CheckDraw()) {
 			MessageBox(GetHWnd(), _T("Draw!"), _T("Game Over!"), MB_OK);
+			running = false;
 		}
 	}
 
